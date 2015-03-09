@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("");
+    });
+	
+	
+	$(".nav").click(function(){
+        $("ul").slideToggle("");
+    });
+	
+	
+	
+});
+</script>
+ 
+<style>
+.wrapper{margin:auto; width:1000px} 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+<div class="wrapper"><div id="flip">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div>
+
+
+
+
+
+
+<div class="nav">gfggfffd
+
+<ul>
+<li>home</li> 
+<li>about us </li>
+<li>slide </li>
+<li> profile</li> 
+<li>faq</li> 
+<li>blog</li>
+</ul>
+
+
+</div>
+
+
+
+</div>
+</body>
+</html>
